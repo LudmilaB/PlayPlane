@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>UWGame</ProjectName>
+    <ProjectGuid>{D3D09114-96D0-4629-88B8-122C0256058C}</ProjectGuid>
+    <RootNamespace>UWGame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(ProjectDir)\.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">false</EmbedManifest>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DEBUG;PROFILE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dxerr.lib;dxguid.lib;d3dx9d.lib;d3dx10d.lib;d3d9.lib;comctl32.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)UWGame.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dxerr.lib;dxguid.lib;d3dx9.lib;d3dx10.lib;d3d9.lib;comctl32.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;PROFILE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dxerr.lib;dxguid.lib;d3dx9.lib;d3dx10.lib;d3d9.lib;comctl32.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)p.exe</OutputFile>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Source\DXUT\directx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\resource.h" />
+    <ClInclude Include="Source\DXUT\DXUT.h" />
+    <ClInclude Include="Source\DXUT\DXUTcamera.h" />
+    <ClInclude Include="Source\DXUT\DXUTenum.h" />
+    <ClInclude Include="Source\DXUT\DXUTgui.h" />
+    <ClInclude Include="Source\DXUT\DXUTmisc.h" />
+    <ClInclude Include="Source\DXUT\DXUTres.h" />
+    <ClInclude Include="Source\DXUT\DXUTsettingsdlg.h" />
+    <ClInclude Include="Source\DXUT\SDKmisc.h" />
+    <ClInclude Include="Source\DXUT\SDKsound.h" />
+    <ClInclude Include="Source\DXUT\SDKwavefile.h" />
+    <ClInclude Include="Source\Decal.h" />
+    <ClInclude Include="Source\InstanceNode.h" />
+    <ClInclude Include="Source\LayerDrawing.h" />
+    <ClInclude Include="Source\LineNode.h" />
+    <ClInclude Include="Source\MeshFile.h" />
+    <ClInclude Include="Source\ModelFile.h" />
+    <ClInclude Include="Source\ModelFiles.h" />
+    <ClInclude Include="Source\ModelNode.h" />
+    <ClInclude Include="Source\Node.h" />
+    <ClInclude Include="Source\TeapotNode.h" />
+    <ClInclude Include="Source\TransNode.h" />
+    <ClInclude Include="Source\Utilities.h" />
+    <ClInclude Include="Source\WorldFile.h" />
+    <ClInclude Include="Source\WorldModelFile.h" />
+    <ClInclude Include="Source\database.h" />
+    <ClInclude Include="Source\debugdrawing.h" />
+    <ClInclude Include="Source\global.h" />
+    <ClInclude Include="Source\singleton.h" />
+    <ClInclude Include="Source\time.h" />
+    <ClInclude Include="Source\world.h" />
+    <ClInclude Include="Source\debuglog.h" />
+    <ClInclude Include="Source\msg.h" />
+    <ClInclude Include="Source\msgnames.h" />
+    <ClInclude Include="Source\msgroute.h" />
+    <ClInclude Include="Source\statemch.h" />
+    <ClInclude Include="Source\body.h" />
+    <ClInclude Include="Source\gameobject.h" />
+    <ClInclude Include="Source\Instance.h" />
+    <ClInclude Include="Source\MeshInstance.h" />
+    <ClInclude Include="Source\movement.h" />
+    <ClInclude Include="Source\PathNode.h" />
+    <ClInclude Include="Source\example.h" />
+    <ClInclude Include="Source\Plane.h" />
+    <ClInclude Include="Source\PlaneInFormation.h" />
+    <ClInclude Include="Source\PlaneType1.h" />
+    <ClInclude Include="Source\PlaneType2.h" />
+    <ClInclude Include="Source\PlaneType3.h" />
+    <ClInclude Include="Source\player.h" />
+    <ClInclude Include="Source\sound.h" />
+    <ClInclude Include="Source\unittest1.h" />
+    <ClInclude Include="Source\unittest2a.h" />
+    <ClInclude Include="Source\unittest2b.h" />
+    <ClInclude Include="Source\unittest2c.h" />
+    <ClInclude Include="Source\unittest3a.h" />
+    <ClInclude Include="Source\unittest3b.h" />
+    <ClInclude Include="Source\unittest4.h" />
+    <ClInclude Include="Source\unittest5.h" />
+    <ClInclude Include="Source\unittest6.h" />
+    <ClInclude Include="Source\MultiAnimation.h" />
+    <ClInclude Include="Source\Tiny.h" />
+    <ClInclude Include="Source\ChaseCamera.h" />
+    <ClInclude Include="Source\DebugCamera.h" />
+    <ClInclude Include="Source\collision.h" />
+    <ClInclude Include="Source\WorldCollData.h" />
+    <ClInclude Include="Source\Minimap.h" />
+    <ClInclude Include="Source\MiniMapSquare.h" />
+    <ClInclude Include="Source\Stars.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameError.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="UWGame.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UWGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DXUT\DXUT.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTcamera.cpp" />
+    <ClCompile Include="Source\DXUT\DXUTenum.cpp" />
+    <ClCompile Include="Source\DXUT\DXUTgui.cpp" />
+    <ClCompile Include="Source\DXUT\DXUTmisc.cpp" />
+    <ClCompile Include="Source\DXUT\DXUTres.cpp" />
+    <ClCompile Include="Source\DXUT\DXUTsettingsdlg.cpp" />
+    <ClCompile Include="Source\DXUT\SDKmisc.cpp" />
+    <ClCompile Include="Source\DXUT\SDKsound.cpp" />
+    <ClCompile Include="Source\DXUT\SDKwavefile.cpp" />
+    <ClCompile Include="Source\Decal.cpp" />
+    <ClCompile Include="Source\InstanceNode.cpp" />
+    <ClCompile Include="Source\LayerDrawing.cpp" />
+    <ClCompile Include="Source\LineNode.cpp" />
+    <ClCompile Include="Source\MeshFile.cpp" />
+    <ClCompile Include="Source\ModelFile.cpp" />
+    <ClCompile Include="Source\ModelFiles.cpp" />
+    <ClCompile Include="Source\ModelNode.cpp" />
+    <ClCompile Include="Source\Node.cpp" />
+    <ClCompile Include="Source\TeapotNode.cpp" />
+    <ClCompile Include="Source\TransNode.cpp" />
+    <ClCompile Include="Source\Utilities.cpp" />
+    <ClCompile Include="Source\WorldFile.cpp" />
+    <ClCompile Include="Source\WorldModelFile.cpp" />
+    <ClCompile Include="Source\database.cpp" />
+    <ClCompile Include="Source\debugdrawing.cpp" />
+    <ClCompile Include="Source\time.cpp" />
+    <ClCompile Include="Source\world.cpp" />
+    <ClCompile Include="Source\debuglog.cpp" />
+    <ClCompile Include="Source\msg.cpp" />
+    <ClCompile Include="Source\msgroute.cpp" />
+    <ClCompile Include="Source\statemch.cpp" />
+    <ClCompile Include="Source\body.cpp" />
+    <ClCompile Include="Source\gameobject.cpp" />
+    <ClCompile Include="Source\Instance.cpp" />
+    <ClCompile Include="Source\MeshInstance.cpp" />
+    <ClCompile Include="Source\movement.cpp" />
+    <ClCompile Include="Source\PathNode.cpp" />
+    <ClCompile Include="Source\example.cpp" />
+    <ClCompile Include="Source\Plane.cpp" />
+    <ClCompile Include="Source\PlaneInFormation.cpp" />
+    <ClCompile Include="Source\PlaneType1.cpp" />
+    <ClCompile Include="Source\PlaneType2.cpp" />
+    <ClCompile Include="Source\PlaneType3.cpp" />
+    <ClCompile Include="Source\player.cpp" />
+    <ClCompile Include="Source\sound.cpp" />
+    <ClCompile Include="Source\unittest1.cpp" />
+    <ClCompile Include="Source\unittest2a.cpp" />
+    <ClCompile Include="Source\unittest2b.cpp" />
+    <ClCompile Include="Source\unittest2c.cpp" />
+    <ClCompile Include="Source\unittest3a.cpp" />
+    <ClCompile Include="Source\unittest3b.cpp" />
+    <ClCompile Include="Source\unittest4.cpp" />
+    <ClCompile Include="Source\unittest5.cpp" />
+    <ClCompile Include="Source\unittest6.cpp" />
+    <ClCompile Include="Source\AllocHierarchy.cpp" />
+    <ClCompile Include="Source\AnimationInstance.cpp" />
+    <ClCompile Include="Source\MultiAnimationLib.cpp" />
+    <ClCompile Include="Source\Tiny.cpp" />
+    <ClCompile Include="Source\ChaseCamera.cpp" />
+    <ClCompile Include="Source\DebugCamera.cpp" />
+    <ClCompile Include="Source\collision.cpp" />
+    <ClCompile Include="Source\WorldCollData.cpp" />
+    <ClCompile Include="Source\Minimap.cpp" />
+    <ClCompile Include="Source\MiniMapSquare.cpp" />
+    <ClCompile Include="Source\Stars.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameError.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
