@@ -1,0 +1,18 @@
+KEY PRESS           EFFECT 
+----------------    ------------ 
+UP ARROW            Walk forward 
+UP ARROW + SHIFT    Jog forward 
+DOWN ARROW          Walk backward 
+LEFT ARROW          Rotate left 
+RIGHT ARROW         Rotate right 
+
+The debug camera was remapped: 
+
+   A                Rotates camera left (relative to camera’s current orientation) 
+   D                Rotates camera right (relative to camera’s current orientation) 
+   W                Moves camera forward (do not change elevation (i.e., Y-coordinate)) 
+   S                Moves camera backward (do not change elevation (i.e., Y-coordinate)) 
+Page Up             Tilts camera up 
+Page Dn             Tilts camera down 
+   Q                Moves camera up (increase Y-coordinate of camera) (do not change X- or Z-coordinate) 
+   Z                Moves camera down (decrease Y-coordinate of camera) (do not change X- or Z-coordinate) 

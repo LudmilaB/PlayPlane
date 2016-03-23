@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UWGame_2008">
+</Property><Property Name="Solution File" Value="C:\Luda\UWGame AI_Proj4\UWGame AI\UWGame_2008.sln">
+</Property><Property Name="Date" Value="Friday, February 19, 2016">
+</Property><Property Name="Time" Value="15:20 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UWGame_2008.sln" Description="File successfully backed up as C:\Luda\UWGame AI_Proj4\UWGame AI\UWGame_2008.sln.old">
+</Event><Event ErrorLevel="0" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Converting project file 'C:\Luda\UWGame AI_Proj4\UWGame AI\UWGame_2008.vcproj'.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Debug|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 1 under Configuration Debug|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Release|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 1 under Configuration Release|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Profile|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 1 under Configuration Profile|x64.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Unable to upgrade the file 'UWGame.manifest' default tool.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Unable to upgrade the file 'UWGame.manifest' default tool.">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="MSB8012: $(TargetName) ('UWGame') does not match the Linker's OutputFile property value 'C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGamed.exe' ('UWGamed') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="MSB8012: $(TargetPath) ('C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGame.exe') does not match the Linker's OutputFile property value 'C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGamed.exe' ('C:\Luda\UWGame AI_Proj4\UWGame AI\\UWGamed.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="MSB8012: $(TargetPath) ('C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGame.exe') does not match the Linker's OutputFile property value 'C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGame.exe' ('C:\Luda\UWGame AI_Proj4\UWGame AI\\UWGame.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="MSB8012: $(TargetName) ('UWGame') does not match the Linker's OutputFile property value 'C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGamep.exe' ('UWGamep') in project configuration 'Profile|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="MSB8012: $(TargetPath) ('C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGame.exe') does not match the Linker's OutputFile property value 'C:\Luda\UWGame AI_Proj4\UWGame AI\\.\UWGamep.exe' ('C:\Luda\UWGame AI_Proj4\UWGame AI\\UWGamep.exe') in project configuration 'Profile|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Done converting to new project file 'C:\Luda\UWGame AI_Proj4\UWGame AI\UWGame_2008.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="UWGame_2008" Source="UWGame_2008.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UWGame_2008.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UWGame_2008.sln" Description="Converted">
+</Event></UpgradeLog>
